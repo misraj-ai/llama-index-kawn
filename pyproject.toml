@@ -9,7 +9,7 @@ description = "LlamaIndex Integration for Kawn AI (Basser Reader & Tbyaan Embedd
 authors = ["Misraj AI <hennara@misraj.ai>"]
 readme = "README.md"
 packages = [
-    { include = "llama_index" }
+    { include = "llama_index_integration" }
 ]
 
 [tool.poetry.dependencies]

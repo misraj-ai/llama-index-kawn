@@ -1,1 +1,0 @@
-from .kawn import KawnEmbedding

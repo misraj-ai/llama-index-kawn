@@ -126,7 +126,7 @@ class KawnEmbedding(BaseEmbedding):
         with KawnClient(api_key=self._api_key) as client:
             service = EmbeddingService(client)
             response = service.create(
-                input=query,
+                inputs=query,
                 model=self.model_name,
                 **self._get_api_kwargs()
             )

@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "llama-index-kawn"
-version = "0.1.0"
+version = "0.1.1"
 description = "LlamaIndex Integration for Kawn AI (Basser Reader & Tbyaan Embeddings)"
 authors = ["Misraj AI <hennara@misraj.ai>"]
 readme = "README.md"
@@ -16,3 +16,8 @@ packages = [
 python = ">=3.9"
 llama-index-core = ">=0.10.0"
 "kawn.ai" = ">=0.1.0" # Replace with your actual SDK version/name on PyPI
+
+
+[project.urls]
+Homepage = "https://kawn.ai/en"
+Source = "https://github.com/misraj-ai/llama-index-kawn"

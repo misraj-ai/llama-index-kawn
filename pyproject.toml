@@ -15,4 +15,4 @@ packages = [
 [tool.poetry.dependencies]
 python = ">=3.9"
 llama-index-core = ">=0.10.0"
-kawn.ai = ">=0.1.0" # Replace with your actual SDK version/name on PyPI
+"kawn.ai" = ">=0.1.0" # Replace with your actual SDK version/name on PyPI
